@@ -15,7 +15,7 @@ unsigned int i = 0, j = 0;
 char *str;
 va_list ls;
 va_start(ls, format);
-  
+
 while (format && format[i])
 {
 switch (format[i])
